@@ -25,6 +25,6 @@ jobs:
         with:
           directory: .
           # Environment variable name of the Bridgecrew API key from Bridgecrew app
-          api-key: BC_API_KEY
+          api-key: ${{ secrets.BC_API_KEY }} 
           download_external_modules: true
 
