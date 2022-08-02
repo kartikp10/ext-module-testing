@@ -27,7 +27,7 @@ jobs:
       - name: Checkov GitHub Action
         uses: bridgecrewio/checkov-action@v12.1347.0
         with:
-          directory: ${{ GITHUB_WORKSPACE }}
+          directory: .
           api-key: ${{ secrets.BC_API_KEY }}
           download_external_modules: true
           log_level: DEBUG
