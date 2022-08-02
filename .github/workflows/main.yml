@@ -30,5 +30,6 @@ jobs:
           directory: .
           api-key: ${{ secrets.BC_API_KEY }}
           download_external_modules: true
-          log_level: WARNING
+          log_level: DEBUG
+          github_pat: ${{ secrets.GH_PAT }}
 
