@@ -10,5 +10,4 @@ module "s3_bucket" {
   allowed_bucket_actions = ["s3:GetObject", "s3:ListBucket", "s3:GetBucketLocation"]
   name                   = "app"
   stage                  = "test"
-  namespace              = "eg"
 }
