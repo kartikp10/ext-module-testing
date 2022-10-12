@@ -1,8 +1,8 @@
 module "s3_bucket" {
   #source = "git@github.com:kartikp10/terraform-aws-s3-bucket1.git"
   # source = "github.com/kartikp10/terraform-aws-s3-bucket1"
-  #source = "git::https://github.com/kartikp10/terraform-aws-s3-bucket1.git"
-  source = "git::ssh://git@github.com/kartikp10/terraform-aws-s3-bucket1.git"
+  source = "git::https://github.com/kartikp10/terraform-aws-s3-bucket1.git"
+  # source = "git::ssh://git@github.com/kartikp10/terraform-aws-s3-bucket1.git"
   acl                    = "private"
   enabled                = true
   user_enabled           = true
